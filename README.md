@@ -35,7 +35,27 @@ Pdynamic=Pswitching+Pshort-circuit
 Το McPAT  απεικονίζει αυτή τη διαφορά με τις ποσότητες Peak Dynamic, Runtime Dynamic.
 
 ### 4 Εφαρμογή σε Xeon και ARM9
+ARM9
+Area = 5.39698 mm^2
+  Peak Power = 1.74189 W
+  Total Leakage = 0.108687 W
+  Peak Dynamic = 1.6332 W
+  Subthreshold Leakage = 0.0523094 W
+  Gate Leakage = 0.0563774 W
+  Runtime Dynamic = 2.96053 W
+  
+  
+Xeon
+  Area = 410.507 mm^2
+  Peak Power = 134.938 W
+  Total Leakage = 36.8319 W
+  Peak Dynamic = 98.1063 W
+  Subthreshold Leakage = 35.1632 W
+  Subthreshold Leakage with power gating = 16.3977 W
+  Gate Leakage = 1.66871 W
+  Runtime Dynamic = 72.9199 W
 
+H ενέργεια που καταναλώνει ο ARM9 είναι = 2.96053 *t και του Xeon=72.9199*t/40+30*36.8319. Αφού συνεχίζει να λειτουργεί ο Xeon συνεχίζει να υπάρχει leakage. 
 
 ## Βήμα 2ο
 
