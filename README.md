@@ -69,7 +69,7 @@ Pdynamic=Pswitching+Pshort-circuit
 
 
 
-![zip_area](https://github.com/username644/Ao3/blob/main/zip_area.png?raw=true)
+![zip_area](https://github.com/username644/Ao3/blob/main/zip_Area.png?raw=true)
 ![zip_leakg](https://github.com/username644/Ao3/blob/main/zip_leakg.png?raw=true)
 ![zip_leakt](https://github.com/username644/Ao3/blob/main/zip_leakt.png?raw=true)
 ![zip_runtime](https://github.com/username644/Ao3/blob/main/zip_runtime.png?raw=true)
