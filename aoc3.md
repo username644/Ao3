@@ -1,4 +1,4 @@
-﻿# 3expo  Εργαστήριο Αρχιτεκτονική προϋγμένων υπολογιστών
+﻿# 3o  Εργαστήριο Αρχιτεκτονική προϋγμένων υπολογιστών
 
 ## Βήμα 1ο
 
@@ -32,6 +32,46 @@
 
 ### 1 Energy, Delay, Area
 Το αρχείο που παράγει το McPAT περιέχει πληροφορίες που αφορούν μόνο ισχύ και επιφάνεια (Area στο αρχείο), όμως απαιτεί προεργασία από, στην παρούσα περίπτωση, το gem5 που μας δίνει πληροφορίες για τα delays και το χρόνο εκτέλεσης. Ο συνδιασμός των παραπάνω μας δίνουν τα ζητούμενα.
+
+### 2 Γαφήματα
+![Hmmer_area](https://github.com/username644/Ao3/blob/main/hmmer_area.png?raw=true)
+![Hmmer_leakg](https://github.com/username644/Ao3/blob/main/hmmer_leakg.png?raw=true)
+![Hmmer_leakt](https://github.com/username644/Ao3/blob/main/hmmer_leakt.png?raw=true)
+![Hmmer_runtime](https://github.com/username644/Ao3/blob/main/hmmer_runtime.png?raw=true)
+
+
+
+![libm_area](https://github.com/username644/Ao3/blob/main/libm_area.png?raw=true)
+![libm_leakg](https://github.com/username644/Ao3/blob/main/libm_leakg.png?raw=true)
+![libm_leakt](https://github.com/username644/Ao3/blob/main/libm_leakt.png?raw=true)
+![libm_runtime](https://github.com/username644/Ao3/blob/main/libm_runtime.png?raw=true)
+
+
+![mcf_area](https://github.com/username644/Ao3/blob/main/mcf_area.png?raw=true)
+![mcf_leakg](https://github.com/username644/Ao3/blob/main/mcf_leakg.png?raw=true)
+![mcf_leakt](https://github.com/username644/Ao3/blob/main/mcf_leakt.png?raw=true)
+![mcf_runtime](https://github.com/username644/Ao3/blob/main/mcf_runtime.png?raw=true)
+
+
+![sjeng_area](https://github.com/username644/Ao3/blob/main/sjeng_area.png?raw=true)
+![sjeng_leakg](https://github.com/username644/Ao3/blob/main/sjeng_leakg.png?raw=true)
+![sjeng_leakt](https://github.com/username644/Ao3/blob/main/sjeng_leakt.png?raw=true)
+![sjeng_runtime](https://github.com/username644/Ao3/blob/main/sjeng_runtime.png?raw=true)
+
+
+
+![zip_area](https://github.com/username644/Ao3/blob/main/zip_area.png?raw=true)
+![zip_leakg](https://github.com/username644/Ao3/blob/main/zip_leakg.png?raw=true)
+![zip_leakt](https://github.com/username644/Ao3/blob/main/zip_leakt.png?raw=true)
+![zip_runtime](https://github.com/username644/Ao3/blob/main/zip_runtime.png?raw=true)
+
+
+## Χαρακτηριστικά επεξεργαστών 
+![zip](https://github.com/username644/erg.Aoc2/blob/main/zip%20eper.png?raw=true)
+ 
+![hmmer](https://github.com/username644/erg.Aoc2/blob/main/hmmer%20exper.png?raw=true)
+![lbm](https://github.com/username644/erg.Aoc2/blob/main/lbm%20exper.png?raw=true)
+![mcf](https://github.com/username644/erg.Aoc2/blob/main/mcf%20exper.png?raw=true)
 
 
 ##  Κριτική 
