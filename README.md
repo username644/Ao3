@@ -8,20 +8,29 @@
 
 ### 2 Dynamic, Static, Short-circuit power και leakage
 Η ολική ισχύς που καταναλώνεται σε μια συσκευή αποτελείται από δύο επιμέρους ισχείς: τη δυναμική (dynamic) και τη στατική ή ισχύ διαρροής (leakage power). O διαχωρισμός τους γίνεται λόγω της λειτουργίας των transistor του επεξεργαστή.
-# total power math
+![P_total](https://github.com/username644/Ao3/blob/main/totalp.png?raw=true)
 
  1. dynamic power αποτελεί το άθροισμα των switching, και Short-circuit power. 
-# math
+Pdynamic=Pswitching+Pshort-circuit
 Η Pswitching  αφορά φόρτιση και αποφόρτιση χωρητικοτήτων και η ΡShort-circuit  αφορά στιγμιαίες ενώσεις πηγής και ground κατα την αλλαγή κατάστασης στα gate των transistor.
-# εικονα τρανζιστορ :).
+
+![P_switch](https://github.com/username644/Ao3/blob/main/Pswitch.png?raw=true)
+![P_sc](https://github.com/username644/Ao3/blob/main/Psc.png?raw=true)
+
+![switch diagram](https://github.com/username644/Ao3/blob/main/diagram%20switch.png?raw=true)
  2. Static, και leakage.
  Pleak ονομάζεται η ισχύς που διαρρέει στο υπόστρωμα του επεξεργαστή.
-# math και εικόνα
+![P_l](https://github.com/username644/Ao3/blob/main/Pl.png?raw=true)
+
+Όπου: Vdd τάση πηγής, Vth τάση κατωφλίου, W και L διαστάσεις τρανζιστορ ,Isc ρεύμα short circuit, f συχνότητα,Ceff χωριτικότητα ,a switching activity.
+
 Αν στον ίδιο επεξεργαστή τρέξουν 2 προγράμματα το ένα μεγαλύτερης διάρκειας από το άλλο δεν μπορούμε να ξέρουμε για τη σχέση των δυναμικών ισχύων τους καθώς εξαρτόνται από το a(switching activity), όμως η στατική επηρεάζεται απο σταθερά μεγέθη( τάση πηγής, Vth και διαστάσεις των transistor) οπότε θα υπάρχει μεγαλύτερη κατανάλωση ενέργειας λόγω Pleak .
 
 ### 3 Energy efficiency 
 Είναι πιθανό επεξεργαστής χαμηλότερης κατανάλωσης να έχει μεγαλύτερσ διάρκεια μπαταρίας. Αύτό εξηγείται από την ενεργειακή απόδοση:
-# math
+
+![efficiency](https://www.sunpower-uk.com/files/2014/07/What-is-efficiency-1.png)
+
 Αν ένας επεξεργαστής έχει απόδοση 50% για την εκπλήρωση διαδικασίας που απαιτεί πχ. 50W καταναλώνει 100W, ενώ άλλος με απόδοση 90% καταναλώνει 56W για την ίδια διαδικασία.
 Το McPAT  απεικονίζει αυτή τη διαφορά με τις ποσότητες Peak Dynamic, Runtime Dynamic.
 
