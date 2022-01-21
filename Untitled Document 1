@@ -1,0 +1,184 @@
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specbzip/stats.txt ~/Desktop/spec_results/specbzip/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/zip.xml
+
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specbzip15/stats.txt ~/Desktop/spec_results/specbzip15/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/zip15.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specbzipassoc/stats.txt ~/Desktop/spec_results/specbzipassoc/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/zipassoc.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specbzipcacheline/stats.txt ~/Desktop/spec_results/specbzipcacheline/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/zipcacheline.xml
+
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specbzipl1size/stats.txt ~/Desktop/spec_results/specbzipl1size/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/zipl1size.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specbzippr1/stats.txt ~/Desktop/spec_results/specbzippr1/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/zippr1.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specbzippr2/stats.txt ~/Desktop/spec_results/specbzippr2/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/zippr2.xml
+
+--hmmer--
+
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/spechmmerpl1/stats.txt ~/Desktop/spec_results/spechmmerpl1/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/hmmerpl1.xml
+
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/spechmmer15/stats.txt ~/Desktop/spec_results/spechmmer15/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/hmmer15.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/spechmmerl1assoc/stats.txt ~/Desktop/spec_results/spechmmerl1assoc/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/hmmerl1assoc.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/spechmmercacheline/stats.txt ~/Desktop/spec_results/spechmmercacheline/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/hmmercacheline.xml
+
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/spechmmerl2/stats.txt ~/Desktop/spec_results/spechmmerl2/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/hmmerl2.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/spechmmerpl1/stats.txt ~/Desktop/spec_results/spechmmerpl1/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/hmmerpl1.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/spechmmerpr1/stats.txt ~/Desktop/spec_results/spechmmerpr1/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/hmmerpr1.xml
+
+
+
+--libm-- 
+
+
+
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/speclibm15/stats.txt ~/Desktop/spec_results/speclibm15/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/libm15.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/speclibml1assoc/stats.txt ~/Desktop/spec_results/speclibml1assoc/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/libml1assoc.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/speclibmcacheline/stats.txt ~/Desktop/spec_results/speclibmcacheline/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/libmcacheline.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/speclibml1/stats.txt ~/Desktop/spec_results/speclibml1/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/libml1.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/speclibmpr1/stats.txt ~/Desktop/spec_results/speclibmpr1/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/libmpr1.xml
+
+
+--mcf--
+
+
+
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specmcf15/stats.txt ~/Desktop/spec_results/specmcf15/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/mcf15.xml
+
+
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specmcfcachelinebig/stats.txt ~/Desktop/spec_results/specmcfcachelinebig/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/mcfcachelinebig.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specmcfcacheline/stats.txt ~/Desktop/spec_results/specmcfcacheline/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/mcfcacheline.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specmcfl1assoc/stats.txt ~/Desktop/spec_results/specmcfl1assoc/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/mcfl1assoc.xml
+
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specmcfpl1/stats.txt ~/Desktop/spec_results/specmcfpl1/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/mcfpl1.xml
+
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specmcfpr1/stats.txt ~/Desktop/spec_results/specmcfpr1/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/mcfpr1.xml
+
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specmcfpr2/stats.txt ~/Desktop/spec_results/specmcfpr2/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/mcfpr2.xml
+
+
+--jeng--
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specsjeng15/stats.txt ~/Desktop/spec_results/specsjeng15/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/sjeng15.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specsjengl1assoc/stats.txt ~/Desktop/spec_results/specsjengl1assoc/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/sjengl1assoc.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specsjengl2assoc/stats.txt ~/Desktop/spec_results/specsjengl2assoc/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/sjengl2assoc.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specsjengcachelinesize/stats.txt ~/Desktop/spec_results/specsjengcachelinesize/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/sjengcacheline.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specsjengl1/stats.txt ~/Desktop/spec_results/specsjengl1/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/sjengl1.xml
+
+./Scripts/GEM5ToMcPAT.py ~/Desktop/spec_results/specsjengpr1/stats.txt ~/Desktop/spec_results/specsjengpr1/config.json ./mcpat/ProcessorDescriptionFiles/inorder_arm.xml  -o outp/sjengpr1.xml
+
+ 
+ 
+ ./mcpat -infile outp/hmmer15.xml -print_level 5 > outp/res/hmmer15.txt
+./mcpat -infile outp/hmmerl1assoc.xml -print_level 5 > outp/res/hmmerl1assoc.txt
+./mcpat -infile outp/hmmerl2.xml -print_level 5 > outp/res/hmmerl2.txt
+./mcpat -infile outp/hmmerpl1.xml -print_level 5 > outp/res/hmmerpl1.txt
+./mcpat -infile outp/hmmerpr1.xml -print_level 5 > outp/res/hmmerpr1.txt
+
+./mcpat -infile outp/libm15.xml -print_level 5 > outp/res/libm15.txt
+./mcpat -infile outp/libmcacheline.xml -print_level 5 > outp/res/libmcacheline.txt
+./mcpat -infile outp/libml1.xml -print_level 5 > outp/res/libml1.txt
+./mcpat -infile outp/libml1assoc.xml -print_level 5 > outp/res/libml1assoc.txt
+./mcpat -infile outp/libmpr1.xml -print_level 5 > outp/res/libmpr1.txt
+
+./mcpat -infile outp/mcf15.xml -print_level 5 > outp/res/mcf15.txt
+./mcpat -infile outp/mcfcachelinebig.xml -print_level 5 > outp/res/mcfcachelinebig.txt
+./mcpat -infile outp/mcfl1assoc.xml -print_level 5 > outp/res/mcfl1assoc.txt
+./mcpat -infile outp/mcfpl1.xml -print_level 5 > outp/res/mcfpl1.txt
+./mcpat -infile outp/mcfpr1.xml -print_level 5 > outp/res/mcfpr1.txt
+./mcpat -infile outp/mcfpr2.xml -print_level 5 > outp/res/mcfpr2.txt
+
+
+./mcpat -infile outp/sjeng15.xml -print_level 5 > outp/res/sjeng15.txt
+./mcpat -infile outp/sjengl1.xml -print_level 5 > outp/res/sjengl1.txt
+./mcpat -infile outp/sjengl1assoc.xml -print_level 5 > outp/res/sjengl1assoc.txt
+./mcpat -infile outp/sjengl2assoc.xml -print_level 5 > outp/res/sjengl2assoc.txt
+./mcpat -infile outp/sjengpr1.xml -print_level 5 > outp/res/sjengpr1.txt
+
+
+./mcpat -infile outp/zip.xml -print_level 5 > outp/res/zip.txt
+./mcpat -infile outp/zip15.xml -print_level 5 > outp/res/zip15.txt
+./mcpat -infile outp/zipassoc.xml -print_level 5 > outp/res/zipassoc.txt
+./mcpat -infile outp/zipcacheline.xml -print_level 5 > outp/res/zipcacheline.txt
+./mcpat -infile outp/zipl1size.xml -print_level 5 > outp/res/zipl1size.txt
+./mcpat -infile outp/zippr1.xml -print_level 5 > outp/res/zippr1.txt
+./mcpat -infile outp/zippr2.xml -print_level 5 > outp/res/zippr2.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
