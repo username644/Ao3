@@ -128,29 +128,8 @@
 ./mcpat -infile outp/zippr2.xml -print_level 5 > outp/res/zippr2.txt
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+./mcpat -infile ProcessorDescriptionFiles/ARM_A9_2GHz.xml  -print_level 5 > outp/res/ARM9.txt
+./mcpat -infile ProcessorDescriptionFiles/Xeon.xml  -print_level 5 > outp/res/Xeon.txt
 
 
 
